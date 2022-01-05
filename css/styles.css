@@ -639,6 +639,7 @@ img {
 
 .social-links {
   margin-left: 70px;
+  margin-right: 93px;
 }
 
 .footer-title {
@@ -697,6 +698,22 @@ img {
   display: flex;
 }
 
+.form-footer {
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.form-container {
+}
+
+.label-form {
+  display: block;
+}
+
+.input-footer {
+  display: block;
+}
 /* Модальное окно */
 
 .backdrop {
