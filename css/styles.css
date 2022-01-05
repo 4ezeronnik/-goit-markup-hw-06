@@ -745,11 +745,15 @@ img {
   line-height: 1.25;
 
   padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   min-width: 200px;
   min-height: 50px;
 
@@ -766,10 +770,12 @@ img {
   letter-spacing: 0.06em;
 
   color: #ffffff;
+  padding: 0;
 }
 
 .button-icon {
   fill: var(--primary-white-color);
+  margin-left: 10px;
 }
 /* Модальное окно */
 
