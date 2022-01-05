@@ -705,14 +705,18 @@ img {
 }
 
 .form-container {
+  display: flex;
+  align-items: flex-end;
 }
 
 .label-form {
-  display: block;
 }
 
 .input-footer {
   display: block;
+}
+
+.button-form {
 }
 /* Модальное окно */
 
