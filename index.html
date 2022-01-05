@@ -388,7 +388,7 @@
     <form сlass="form-footer">
         <div class="form-container">
             <div>
-        <label id="email" class="label-form">
+        <label for="email" class="label-form">
             <span class="label-form-subscription">подпишитесь на рассылку</span>
             <input type="email" name="email" id="email" placeholder="E-mail" class="input-footer">
         </label>
@@ -413,6 +413,33 @@
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>
+        <form>
+            <span class="modal-title">Оставьте свои данные, мы вам перезвоним</span>
+            <div>
+                <label for="name-surname">
+                    <span>Имя</span>
+                    <input type="text" name="name-surname" id="name-surname">
+                </label>
+            </div>
+            <div>
+                <label for="tel">
+                    <span>Телефон</span>
+                    <input type="tel" name="tel" id="tel">
+                </label>
+            </div>
+            <div>
+                <label for="mail">
+                    <span>Почта</span>
+                    <input type="email" name="mail" id="mail">
+                </label>
+            </div>
+            <div>
+                <label for="feedback">
+                    <span>Комментарий</span>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+        </form>
     </div>
 </div>
 
