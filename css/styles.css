@@ -698,18 +698,9 @@ img {
   display: flex;
 }
 
-.form-footer {
-  display: block;
-  top: 0;
-  left: 0;
-}
-
 .form-container {
   display: flex;
   align-items: flex-end;
-}
-
-.label-form {
 }
 
 .label-form-subscription {
@@ -730,6 +721,7 @@ img {
   min-height: 50px;
 
   background: #2f303a;
+  color: var(--primary-white-color);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -745,6 +737,10 @@ img {
   padding-left: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
+}
+
+.input-footer::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .button-form {
@@ -768,7 +764,10 @@ img {
   letter-spacing: 0.06em;
 
   color: #ffffff;
+
   padding: 0;
+
+  margin-left: 12px;
 }
 
 .button-icon {
