@@ -844,7 +844,6 @@ img {
 .close-btn:focus {
   background-color: var(--accent-color);
 }
-
 .modal-title {
   display: block;
   font-weight: bold;
@@ -893,7 +892,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition: transform var(--animation-time) var(--main-timing-function);
+  transition: transform var(--animation-time) var(--main-timing-function),
   background-color var(--animation-time) var(--main-timing-function);
 }
 
@@ -929,11 +928,10 @@ img {
 }
 
 .span-container {
-  display: block;
   position: relative;
 }
 
-.icon-modal-user {
+ .icon-modal-user {
   position: absolute;
 
   display: block;
@@ -991,6 +989,7 @@ img {
   height: 1px;
   margin: -1px;
 }
+
 .checkbox-label {
   display: flex;
   align-items: center;
