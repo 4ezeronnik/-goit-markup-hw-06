@@ -870,6 +870,7 @@ img {
   margin-bottom: 20px;
 }
 
+
 .modal-label-name {
   display: block;
   margin-top: 10px;
@@ -893,6 +894,7 @@ img {
   border-radius: 4px;
 
   transition: transform var(--animation-time) var(--main-timing-function);
+  background-color var(--animation-time) var(--main-timing-function);
 }
 
 .modal-input-name:focus,
@@ -913,6 +915,7 @@ img {
   letter-spacing: 0.01em;
 
   transition: transform var(--animation-time) var(--main-timing-function);
+  background-color var(--animation-time) var(--main-timing-function);
 }
 
 .modal-textarea:focus,
@@ -921,11 +924,12 @@ img {
 }
 
 .checkbox-container {
+  display: block;
   position: relative;
 }
 
 .span-container {
-  display: inline-block;
+  display: block;
   position: relative;
 }
 
@@ -942,7 +946,8 @@ img {
 
   cursor: pointer;
 
-  transition: transform var(--animation-time) var(--main-timing-function);
+  transition: fill var(--animation-time) var(--main-timing-function),
+  background-color var(--animation-time) var(--main-timing-function);
 }
 
 .icon-modal-user:focus,
