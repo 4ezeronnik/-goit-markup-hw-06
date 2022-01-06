@@ -739,6 +739,9 @@ img {
   padding-bottom: 14px;
 }
 
+.input-footer:focus {
+}
+
 .input-footer::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
