@@ -877,6 +877,8 @@ img {
 .modal-input-name {
   width: 448px;
   height: 40px;
+
+  padding-left: 42px;
 }
 
 .modal-textarea {
@@ -969,6 +971,8 @@ img {
 
   width: 16px;
   height: 15px;
+
+  visibility: hidden;
 }
 
 .check-icon-checked {
@@ -977,6 +981,9 @@ img {
   left: 54px;
 
   fill: var(--primary-white-color);
+
+  border: 0.14563em solid var(--title-text-color);
+  border-radius: 2px;
 }
 
 .text-checkbox {
@@ -985,5 +992,9 @@ img {
 
 .check-input:checked + .check-icon-checked {
   background-color: var(--accent-color);
-  border: 3px var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.checkbox-link {
+  color: var(--accent-color);
 }
