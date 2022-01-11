@@ -855,9 +855,8 @@ img {
   color: var(--title-text-color);
 
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 40px;
-  margin-bottom: 12px;
+  margin-right: 41px;
+  margin-left: 39px;
 }
 
 .modal-label {
@@ -865,8 +864,6 @@ img {
   flex-direction: column;
   padding-right: 40px;
   padding-left: 40px;
-
-  margin-bottom: 20px;
 }
 
 
@@ -1003,7 +1000,8 @@ img {
   align-items: center;
 
   padding-left: 54px;
-  padding-right: 51px;
+  padding-right: 50px;
+  margin-top: 20px;
 }
 
 .check-input {
