@@ -610,13 +610,18 @@ img {
 }
 
 .address-link {
-  padding-bottom: 9px;
-
   color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .address-contacts {
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .footer-container {
@@ -624,14 +629,16 @@ img {
   align-items: baseline;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 215px;
 }
+
 .footer-contacts .logo {
   display: block;
   margin-bottom: 20px;
 }
 
 .footer-section {
+  display: flex;
+
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
