@@ -610,7 +610,6 @@ img {
 }
 
 .address-link {
-  padding-top: 9px;
   padding-bottom: 9px;
 
   color: var(--primary-white-color);
@@ -625,6 +624,7 @@ img {
   align-items: baseline;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: 215px;
 }
 .footer-contacts .logo {
   display: block;
@@ -778,6 +778,8 @@ img {
   padding: 0;
 
   margin-left: 12px;
+
+  cursor: pointer;
 }
 
 .button-icon {
@@ -985,6 +987,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -1002,6 +1006,8 @@ img {
   padding-left: 54px;
   padding-right: 50px;
   margin-top: 20px;
+
+  cursor: pointer;
 }
 
 .check-input {
